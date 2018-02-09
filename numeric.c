@@ -1,12 +1,11 @@
 #include<stdio.h>
 int main()
 {
-int a;
-printf("Enter the number");
-scanf("%d",&a);
-if(a>=0 && a<=3275)
+int a[30],i;
+scanf("%d",&a[i]);
+if(a[i]>=0 && a[i]<=3275)
 {
-printf("yes");
+printf("\nyes");
 }
 return 0;
 }
